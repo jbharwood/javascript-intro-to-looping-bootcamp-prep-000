@@ -9,9 +9,9 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  n--
+  --n
   if (n < 0)
   console.log(n)
   else 
-    console.log(n)
+    console.log("done")
 }
