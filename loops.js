@@ -10,7 +10,7 @@ function forLoop(array) {
 
 function whileLoop(n) {
   n--
-  if n < 0
+  if (n < 0)
   console.log(n)
   else 
     console.log(n)
