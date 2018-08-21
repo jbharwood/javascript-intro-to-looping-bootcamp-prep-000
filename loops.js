@@ -8,8 +8,9 @@ function forLoop(array) {
   return array
 }
 function whileLoop(n) {
+  n--
   if (n > 0) {
-    console.log(--n)
+    console.log(n)
   }
     console.log("done")
 }
