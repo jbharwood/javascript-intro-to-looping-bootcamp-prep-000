@@ -7,10 +7,10 @@ function forLoop(array) {
   }
   return array
 }
+
 function whileLoop(n) {
   n--
-  if (n > 0) {
+  system.log(n)
+  if (n === 0) 
     console.log(n)
-  }
-  
 }
